@@ -2,8 +2,8 @@
 
 ## 📌 Project Overview
 This project analyzes historical stock market data using **Yahoo Finance** and applies
-**data science and machine learning techniques** to understand price behavior and predict
-future movements.
+**data science and machine learning techniques** to understand stock price behavior and
+predict future movements.
 
 The project includes **EDA, technical indicators, regression, and classification models**
 to support financial insights.
@@ -11,17 +11,17 @@ to support financial insights.
 ---
 
 ## 🎯 Problem Statement
-Stock market data is volatile and complex.
-Manual analysis is inefficient and error-prone.
+Stock market data is complex and volatile.
+Manual analysis makes it difficult to extract meaningful insights.
 
 **Goal:**  
-Use data science and machine learning to analyze stock trends and predict
-**next-day movement and future prices**.
+Analyze historical stock data and predict **next-day movement** and **future stock prices**
+using machine learning.
 
 ---
 
 ## 🎯 Objectives
-- Fetch stock data using Yahoo Finance
+- Fetch stock data from Yahoo Finance
 - Perform Exploratory Data Analysis (EDA)
 - Engineer technical indicators (MA, RSI)
 - Predict next-day movement (Up/Down)
@@ -31,7 +31,7 @@ Use data science and machine learning to analyze stock trends and predict
 ---
 
 ## 📊 Dataset Description
-Features used in this project:
+Features used:
 - Date
 - Open, High, Low, Close prices
 - Volume
@@ -45,86 +45,64 @@ Features used in this project:
 ## 🔍 Exploratory Data Analysis (EDA)
 
 ### 🔹 Open vs Close Price
-![Open vs Close](images/open_vs_close.png)
-
-**Insight:**  
-Shows the relationship between opening and closing prices and highlights price volatility.
+![Open vs Close](images/Screenshot%202025-12-25%20151644.png)
 
 ---
 
 ### 🔹 Dataset Preview
-![Dataset Preview](images/dataset_preview.png)
-
-**Insight:**  
-Displays cleaned and feature-engineered stock data.
+![Dataset Preview](images/Screenshot%202025-12-25%20151523.png)
 
 ---
 
 ### 🔹 Feature Engineering View
-![Feature Engineering](images/feature_engineering.png)
-
-**Insight:**  
-Confirms successful creation of MA, RSI, and future price features.
+![Feature Engineering](images/Screenshot%202025-12-25%20151424.png)
 
 ---
 
 ## 📈 Technical Indicators
 
 ### 🔹 Moving Average & RSI
-![Indicators Plot](images/indicators_plot.png)
-
-**Insight:**  
-- Moving Average smooths price trends  
-- RSI identifies overbought/oversold zones  
+![Indicators Plot](images/WhatsApp%20Image%202025-12-25%20at%2015.23.13_3dfed434.jpg)
 
 ---
 
 ## 🧠 Machine Learning Models Used
 
-### 🔹 Regression
+### 🔹 Regression Models
 - Linear Regression
 - Random Forest Regression
 
-### 🔹 Classification
-- Next Day Price Movement (Up / Down)
+### 🔹 Classification Model
+- Predicts Next-Day Movement (Up / Down)
 
 ---
 
 ## 📐 Model Evaluation
 
 ### 🔹 Regression Results
-![Regression Results](images/regression_results.png)
-
-**Insight:**  
-Random Forest performs better than Linear Regression due to non-linear patterns.
+![Regression Results](images/Screenshot%202025-12-25%20151652%20(1).png)
 
 ---
 
-### 🔹 Classification Performance
-![Classification Report](images/classification_report.png)
-
-**Key Result:**  
-Accuracy ≈ **88%**
+### 🔹 Classification Report
+![Classification Report](images/Screenshot%202025-12-25%20151634.png)
 
 ---
 
 ## 🔗 Correlation Analysis
-![Correlation Heatmap](images/correlation_heatmap.png)
-
-**Insight:**  
-Shows relationships between price features and future price.
+![Correlation Heatmap](images/Screenshot%202025-12-25%20151626.png)
 
 ---
 
 ## 📊 Distribution Analysis
 
 ### 🔹 Future Price Distribution
-![Future Price Distribution](images/future_price_distribution.png)
+![Future Price Distribution](images/Screenshot%202025-12-25%20151619.png)
 
 ---
 
-### 🔹 Categorical Target Distribution
-![Categorical Analysis](images/categorical_analysis.png)
+### 🔹 Categorical Data Analysis
+![Categorical Analysis](images/Screenshot%202025-12-25%20151424%20(1).png)
 
 ---
 
